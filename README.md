@@ -32,6 +32,17 @@ flowchart LR
     B --> G["Uploaded Image Hosting"]
 ```
 
+## Prerequisites
+
+Install Git LFS before cloning because this repository stores the local database and uploaded sample media with Git LFS.
+
+```bash
+git lfs install
+git clone https://github.com/shouryachopra123-commits/Smart-Pothole-Detection.git
+cd Smart-Pothole-Detection
+git lfs pull
+```
+
 ## Quick Start
 
 ### 1. Build the website
